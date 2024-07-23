@@ -37,7 +37,8 @@ const Index = () => {
       
       <div className={Style.hero}>
         <div className={Style.heroContent}>
-          <h1 className={Style.heroTitle}>Welcome to Your Voting Platform</h1>
+          <h1 className={Style.heroTitle}>VoteList </h1>
+          <h1>Each vote is Decentralised</h1>
           <p className={Style.heroSubtitle}>
             Participate in fair and transparent voting
           </p>

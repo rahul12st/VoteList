@@ -49,11 +49,11 @@ export const VotingProvider = ({ children }) => {
       setError("Please Install MetaMask & Connect, Reload");
     }
   };
-  console.log("Current Account:", currentAccount);
-  console.log("Contract Owner:", CONTRACT_OWNER);
-  if(currentAccount==CONTRACT_OWNER){
-    console.log("yes");
-  }
+  // console.log("Current Account:", currentAccount);
+  // console.log("Contract Owner:", CONTRACT_OWNER);
+  // if(currentAccount==CONTRACT_OWNER){
+  //   console.log("yes");
+  // }
   const connectWallet = async () => {
     if (!window.ethereum) return alert("Please install MetaMask");
     const network = await handleNetworkSwitch();

@@ -13,19 +13,30 @@
   justify-content: center;
   padding: 4rem 0;
   background: linear-gradient(to right, #50727b, #76abae);
-  color: #edeeebc9;
+  /* background-image: url("../hero1.png"); */
+  background-size: cover;
+  background-position: center;
+  color: #c0c0bcc9;
   text-align: center;
   border-radius: 1rem;
+ 
 }
+
+
 /* .down{
   background-color: red;
 } */
+ .hero .heroContent{
+  color:rgb(230, 229, 229);
+  font-size: 2rem;
+  
+ }
 .heroContent {
   max-width: 800px;
 }
 
 .heroTitle {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 1rem;
   font-weight: bold;
 }
