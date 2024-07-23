@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import Style from "../card/card.module.css";
-import image from "../../candidate.png";
+
 import voterCardStyle from "./voterCard.module.css";
 
 const voterCard = ({ voterArray }) => {
