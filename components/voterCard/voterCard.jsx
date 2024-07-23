@@ -20,7 +20,7 @@ const voterCard = ({ voterArray }) => {
             </h2>
             <p>Address: {el?.address.slice(0, 30)}..</p>
             <p>
-              I have voted.
+              Eligible to vote
             </p>
             <p className={voterCardStyle.vote_Status}>
               {el?.votingStatus == true ? "You Already Voted" : "Not Voted"}
