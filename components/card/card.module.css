@@ -1,0 +1,113 @@
+/* card.module.css */
+
+  .card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .card_box {
+    background-color: #31393c;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.35);
+    color: #b3b8cd;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    max-height: 600px;
+  }
+  
+
+  .image {
+    height: 40%; 
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+  }
+  
+  .image img {
+    width: auto;
+    height: 100%;
+    /* min-width: 100%;  */
+    min-height: 100%; 
+    max-width: 10%; /* Ensure maximum width of the image is 100% of its container */
+  max-height: 10%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+     /* Optional: Make the image circular */
+  }
+  
+  .card_info {
+    line-height: 1;
+    padding: 0 1.5rem;
+  }
+  
+  .card_vote {
+    color: #76abae;
+  }
+  
+  .total {
+    background-color: #76abae;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .card_vote p {
+    font-size: 1.5rem;
+  }
+  
+  .card_button {
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+  }
+  
+  .card_button button {
+    background-color: #76abae;
+    box-shadow: 10px 10px 15px rgba(19, 42, 54, 0.35);
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 0.2rem;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 35em) {
+    .card {
+      grid-template-columns: 1fr;
+    }
+  
+    .image {
+      height: 300px; /* Adjust height for single column layout */
+    }
+  }
+  .toggleButton {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggleButton:hover {
+  background-color: #0056b3;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  
