@@ -28,31 +28,7 @@ This project is a decentralized voting application (DApp) built on the Ethereum 
 - MetaMask extension installed in your browser
 - An Ethereum wallet with some test Ether (for deploying contracts)
 
-### Installation
 
-1. **Clone the repository**
-    ```bash
-    git clone https://github.com/yourusername/blockchain-voting-platform.git
-    cd blockchain-voting-platform
-    ```
-
-2. **Install dependencies**
-    ```bash
-    npm install
-    ```
-
-3. **Deploy Smart Contracts**
-    - Ensure you have MetaMask connected to an Ethereum test network (like Ropsten or Rinkeby).
-    - Compile and deploy the smart contracts using Truffle or Hardhat.
-    - Update the contract addresses in the frontend configuration.
-
-4. **Start the development server**
-    ```bash
-    npm run dev
-    ```
-
-5. **Open the application**
-    - Open your browser and go to `http://localhost:3000`.
 
 ## Usage
 
@@ -105,4 +81,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any inquiries, please contact [your-email@example.com].
+For any inquiries, please contact [rahul0x1210@gmail.com].
